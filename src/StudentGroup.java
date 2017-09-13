@@ -51,27 +51,30 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) throws IllegalArgumentException {
 		
-		// Add your implementation here
+		Scanner sc=new Scanner(System.in);
+		this.student=Student[size];		
+// Add your implementation here
 	}
 
 	@Override
 	public void addFirst(Student student) throws IllegalArgumentException {
-		// Add your implementation here
+	this.student=Student[size];		
+// Add your implementation here
 	}
 
 	@Override
 	public void addLast(Student student) throws IllegalArgumentException {
-		// Add your implementation here
+		this.student=Student[size];// Add your implementation here
 	}
 
 	@Override
 	public void add(Student student, int index) throws IllegalArgumentException {
-		// Add your implementation here
+		this.student=Student[size];// Add your implementation here
 	}
 
 	@Override
 	public void remove(int index) throws IllegalArgumentException {
-		// Add your implementation here
+	this.student=Student[size];		// Add your implementation here
 	}
 
 	@Override
