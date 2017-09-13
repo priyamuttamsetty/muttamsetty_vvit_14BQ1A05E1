@@ -23,7 +23,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void setStudents(Student[] students) throws IllegalArgumentException;
+	void setStudents(Student[] students);
 	
 
 	/**
@@ -32,7 +32,7 @@ public interface StudentArrayOperation {
 	 *
 	 * @param index
 	 */
-	Student getStudent(int index) throws IllegalArgumentException;
+	Student getStudent(int index);
 
 	
 	/**
@@ -49,7 +49,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void setStudent(Student student, int index) throws IllegalArgumentException;
+	void setStudent(Student student, int index);
 
 	
 	/**
@@ -66,7 +66,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void add(Student student, int index) throws IllegalArgumentException;
+	void add(Student student, int index);
 
 	
 	/**
@@ -78,7 +78,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void addFirst(Student student) throws IllegalArgumentException;
+	void addFirst(Student student);
 	
 
 	/**
@@ -90,7 +90,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void addLast(Student student) throws IllegalArgumentException;
+	void addLast(Student student);
 	
 
 	/**
@@ -103,7 +103,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void remove(int index) throws IllegalArgumentException;
+	void remove(int index);
 	
 
 	/**
@@ -131,7 +131,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void removeFromIndex(int index) throws IllegalArgumentException;
+	void removeFromIndex(int index);
 
 	
 	/**
@@ -144,7 +144,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void removeFromElement(Student student) throws IllegalArgumentException;
+	void removeFromElement(Student student);
 
 	
 	/**
@@ -157,7 +157,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void removeToIndex(int index) throws IllegalArgumentException;
+	void removeToIndex(int index);
 
 	
 	/**
@@ -170,7 +170,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	void removeToElement(Student student) throws IllegalArgumentException;
+	void removeToElement(Student student);
 	
 
 	/**
@@ -192,7 +192,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	Student[] getByBirthDate(Date date) throws IllegalArgumentException;
+	Student[] getByBirthDate(Date date);
 
 	
 	/**
@@ -209,7 +209,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	Student[] getBetweenBirthDates(Date firstDate, Date lastDate) throws IllegalArgumentException;
+	Student[] getBetweenBirthDates(Date firstDate, Date lastDate);
 
 	
 	/**
@@ -227,7 +227,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	Student[] getNearBirthDate(Date date, int days) throws IllegalArgumentException;
+	Student[] getNearBirthDate(Date date, int days);
 	
 
 	/**
@@ -242,7 +242,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	int getCurrentAgeByDate(int indexOfStudent) throws IllegalArgumentException;
+	int getCurrentAgeByDate(int indexOfStudent);
 
 	
 	/**
@@ -273,6 +273,6 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	Student getNextStudent(Student student) throws IllegalArgumentException;
+	Student getNextStudent(Student student);
 
 }
