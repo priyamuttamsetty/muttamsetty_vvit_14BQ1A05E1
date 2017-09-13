@@ -27,19 +27,19 @@ public class StudentGroup implements StudentArrayOperation {
 	public Student[] getStudents() throws IllegalArgumentException {
 		
 		// Add your implementation here
-		return null;
+		return students;
 	}
 
 	@Override
 	public void setStudents(Student[] students) throws IllegalArgumentException {
 		
-	// Add your implementation here
+	this.students=students;// Add your implementation here
 	}
 
 	@Override
 	public Student getStudent(int index) throws IllegalArgumentException {
 		// Add your implementation here
-		 return null;
+		 return students[index];
 	}
 
 	@Override
@@ -51,18 +51,18 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void addFirst(Student student) throws IllegalArgumentException {
-	this.students=students;
+	//this.students=students;
 // Add your implementation here
 	}
 
 	@Override
 	public void addLast(Student student) throws IllegalArgumentException {
-		this.students=students;// Add your implementation here
+		//this.students=students;// Add your implementation here
 	}
 
 	@Override
 	public void add(Student student, int index) throws IllegalArgumentException {
-		this.students= students;// Add your implementation here
+		//this.students= students;// Add your implementation here
 	}
 
 	@Override
@@ -132,13 +132,13 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() throws IllegalArgumentException {
-		this.students= students;// Add your implementation here
+		//this.students= students;// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public Student getNextStudent(Student student) throws IllegalArgumentException {
-		this.students=students;// Add your implementation here
+		//this.students=students;// Add your implementation here
 		return null;
 	}
 }
