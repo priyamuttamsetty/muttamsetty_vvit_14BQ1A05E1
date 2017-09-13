@@ -32,49 +32,42 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) throws IllegalArgumentException {
-	int size=Integer.parseInt(args[0]);	
-	Student[] student= new Student[size];	
+		
 	// Add your implementation here
 	}
 
 	@Override
 	public Student getStudent(int index) throws IllegalArgumentException {
-		if(size>0)
-		{
-			for(i=0;i<size;i++)
-				System.out.println(student[i]);
-		}
-		else// Add your implementation here
-		  return null;
+		// Add your implementation here
+		 return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) throws IllegalArgumentException {
 		
-		Scanner sc=new Scanner(System.in);
-		this.student=Student[size];		
+				
 // Add your implementation here
 	}
 
 	@Override
 	public void addFirst(Student student) throws IllegalArgumentException {
-	this.student=Student[size];		
+	this.students=students;
 // Add your implementation here
 	}
 
 	@Override
 	public void addLast(Student student) throws IllegalArgumentException {
-		this.student=Student[size];// Add your implementation here
+		this.students=students;// Add your implementation here
 	}
 
 	@Override
 	public void add(Student student, int index) throws IllegalArgumentException {
-		this.student=Student[size];// Add your implementation here
+		this.students= students;// Add your implementation here
 	}
 
 	@Override
 	public void remove(int index) throws IllegalArgumentException {
-	this.student=Student[size];		// Add your implementation here
+			// Add your implementation here
 	}
 
 	@Override
@@ -133,19 +126,19 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudentsByAge(int age) throws IllegalArgumentException {
-		// Add your implementation here
+		this.students=students;// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() throws IllegalArgumentException {
-		// Add your implementation here
+		this.students= students;// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public Student getNextStudent(Student student) throws IllegalArgumentException {
-		// Add your implementation here
+		this.students=students;// Add your implementation here
 		return null;
 	}
 }
